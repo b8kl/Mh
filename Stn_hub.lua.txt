@@ -26,7 +26,7 @@ local Window = WindUI:CreateWindow({
     Title = "Stn Hub",
     Icon = "rbxassetid://130692019911397",
     Author = "https://discord.gg/YDecu8Sfzt | Blox Fruit",
-    Folder = "Vylera Hub_BF",
+    Folder = "Stnader Hub_BF",
     Size = UDim2.fromOffset(550, 300),
     Transparent = true,
     Theme = "Dark",
@@ -40,7 +40,7 @@ local Window = WindUI:CreateWindow({
     },
 });
 Window:EditOpenButton({
-    Title = "Vylera Hub - Open",
+    Title = "Stander Hub - Open",
     Icon = "monitor",
     CornerRadius = UDim.new(0, 6),
     StrokeThickness = 2,
@@ -2456,7 +2456,7 @@ DiscordServerParagraph = Tabs.InfoTab:Paragraph({
     Buttons = {{
         Title = "Copy Link Discord",
         Callback = function()
-            setclipboard("not right now");
+            setclipboard("https://discord.gg/7te564tDSE");
             WindUI:Notify({
                 Title = "Notication",
                 Content = "Discord Link Copied",
@@ -2473,7 +2473,7 @@ DiscordServerParagraph1 = Tabs.InfoTab:Paragraph({
     Buttons = {{
         Title = "Copy Social",
         Callback = function()
-            setclipboard("not right now");
+            setclipboard("https://discord.gg/7te564tDSE");
             WindUI:Notify({
                 Title = "Notication",
                 Content = "Social Link Copied",
