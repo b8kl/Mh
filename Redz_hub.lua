@@ -23,10 +23,10 @@ end
 
 local WindUI = (loadstring(game:HttpGet("https://github.com/Footagesus/WindUI/releases/latest/download/main.lua")))();
 local Window = WindUI:CreateWindow({
-    Title = "Stn Hub",
-    Icon = "rbxassetid://130692019911397",
-    Author = "https://discord.gg/YDecu8Sfzt | Blox Fruit",
-    Folder = "Stnader Hub_BF",
+    Title = "Redz Hub | v1.0",
+    Icon = "rbxassetid://9999999977",
+    Author = "https://discord.gg/AVmThBtfq | Blox Fruit",
+    Folder = "Redz Hub_BF",
     Size = UDim2.fromOffset(550, 300),
     Transparent = true,
     Theme = "Dark",
@@ -40,7 +40,7 @@ local Window = WindUI:CreateWindow({
     },
 });
 Window:EditOpenButton({
-    Title = "Stander Hub - Open",
+    Title = "Redz Hub - Open",
     Icon = "monitor",
     CornerRadius = UDim.new(0, 6),
     StrokeThickness = 2,
@@ -2451,12 +2451,12 @@ spawn(function()
 end);
 DiscordServerParagraph = Tabs.InfoTab:Paragraph({
     Title = "Discord Server",
-    Desc = "Link Discord Stander Hub!",
+    Desc = "Link Discord Redz Hub!",
     TextXAlignment = "Left",
     Buttons = {{
         Title = "Copy Link Discord",
         Callback = function()
-            setclipboard("https://discord.gg/7te564tDSE");
+            setclipboard("https://discord.gg/AVmThBtfq");
             WindUI:Notify({
                 Title = "Notication",
                 Content = "Discord Link Copied",
@@ -2468,12 +2468,12 @@ DiscordServerParagraph = Tabs.InfoTab:Paragraph({
 });
 DiscordServerParagraph1 = Tabs.InfoTab:Paragraph({
     Title = "Social Stander Hub",
-    Desc = "Link Social Stander Hub!",
+    Desc = "Link Social Redz Hub!",
     TextXAlignment = "Left",
     Buttons = {{
         Title = "Copy Social",
         Callback = function()
-            setclipboard("https://discord.gg/7te564tDSE");
+            setclipboard("https://discord.gg/AVmThBtfq");
             WindUI:Notify({
                 Title = "Notication",
                 Content = "Social Link Copied",
