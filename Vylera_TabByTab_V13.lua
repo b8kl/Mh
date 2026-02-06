@@ -9,7 +9,7 @@ if not game:IsLoaded() then
 end
 
 -- Load Library
-local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/YourRepo/PremiumLibrary_V13.lua"))()
+local Library = loadstring(game:HttpGet("https://pastefy.app/bv4dTsoy/raw"))()
 local Window = Library:CreateWindow("VYLERA HUB - BLOX FRUITS")
 
 _G.Settings = {
